@@ -1,0 +1,67 @@
+/*esse estilo com * é bom colocar sempre para que retire todos os estilos padrões colocados na página pelo navegador*/
+*{
+    margin:0;
+    padding:0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+main{
+    margin-top:50px;
+    margin-bottom:50px; 
+}
+
+.large-brand-logo > img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.small-brand-logo > img{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.footer-location > .location > .material-icons, .footer-links > ul > li > a > .material-icons{
+    font-size:20px;
+}
+
+.footer-copyright{
+    margin-bottom:0px;
+}
+
+.card-title{
+    padding:24px;
+}
+
+.slider{
+    margin-bottom: 50px
+}
+
+.slider .indicators .indicator-item.active{
+    background-color:#5c6bc0;
+}
+
+.slider .indicators .indicator-item{
+    cursor:pointer;
+}
+
+.caption{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.hover-trasition > i, .hover-trasition > span{
+    -webkit-transition: color 0.5s; /* Safari */
+    transition: color 0.5s;
+}
+
+.hover-trasition:hover > i, .hover-trasition:hover > span{
+    color:#3949ab;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
